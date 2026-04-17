@@ -36,6 +36,20 @@ Want to see the Sentinel in action? You can run the test suite directly from you
    ```bash
    git clone [https://github.com/DanielCSchramm/Stalwart-Sentinel-MVP.git](https://github.com/DanielCSchramm/Stalwart-Sentinel-MVP.git)
    cd Stalwart-Sentinel-MVP
+   Run the Test Suite:
+(Requires Python 3.x)
+python3 test_the_truth.py
+
+What to Expect:
+The Sentinel will process three common AI hallucinations (Physics, Engineering, and Medical). You will see the Smart Dee Dee persona intercept the lies and redirect you to the truth.
+🛠️ Integrating into your AI App
+To use the Sentinel as a filter for your own LLM, simply import the class:
+from sentinel_kernel import StalwartSentinel
+
+sentinel = StalwartSentinel()
+# Wrap your AI's response
+verified_output = sentinel.audit_response(user_input, ai_generated_text)
+print(verified_output)
 
 ---
 **Founder:** Daniel C. Schramm (Malt Studios)  
