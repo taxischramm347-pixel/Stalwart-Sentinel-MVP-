@@ -27,6 +27,17 @@ The Sentinel doesn't just block a lie; it heckles it. If a model tries to give y
 We challenge any prompt engineer or hacker to get a provable lie past the Sentinel. If you break the logic gates, we fix them. Truth is the supreme law of this build.
 
 ---
+
+## 🚀 Quick Start: Run the Truth Test
+
+Want to see the Sentinel in action? You can run the test suite directly from your terminal.
+
+1. **Clone the Repo:**
+   ```bash
+   git clone [https://github.com/DanielCSchramm/Stalwart-Sentinel-MVP.git](https://github.com/DanielCSchramm/Stalwart-Sentinel-MVP.git)
+   cd Stalwart-Sentinel-MVP
+
+---
 **Founder:** Daniel C. Schramm (Malt Studios)  
 **Protocol:** Stalwart  
 **Status:** Pirate-Style Build / Open-Source Humanity
