@@ -27,29 +27,21 @@ The Sentinel doesn't just block a lie; it heckles it. If a model tries to give y
 We challenge any prompt engineer or hacker to get a provable lie past the Sentinel. If you break the logic gates, we fix them. Truth is the supreme law of this build.
 
 ---
-
 ## 🚀 Quick Start: Run the Truth Test
 
-Want to see the Sentinel in action? You can run the test suite directly from your terminal.
+Want to see the Sentinel in action? Copy and paste these commands into your terminal to run the test suite immediately.
 
-1. **Clone the Repo:**
-   ```bash
-   git clone [https://github.com/DanielCSchramm/Stalwart-Sentinel-MVP.git](https://github.com/DanielCSchramm/Stalwart-Sentinel-MVP.git)
-   cd Stalwart-Sentinel-MVP
-   Run the Test Suite:
-(Requires Python 3.x)
+```bash
+# Clone the repository
+git clone https://github.com/DanielCSchramm/Stalwart-Sentinel-MVP.git
+
+# Move into the project folder
+cd Stalwart-Sentinel-MVP
+
+# Run the Truth Test suite
 python3 test_the_truth.py
 
-What to Expect:
-The Sentinel will process three common AI hallucinations (Physics, Engineering, and Medical). You will see the Smart Dee Dee persona intercept the lies and redirect you to the truth.
-🛠️ Integrating into your AI App
-To use the Sentinel as a filter for your own LLM, simply import the class:
-from sentinel_kernel import StalwartSentinel
 
-sentinel = StalwartSentinel()
-# Wrap your AI's response
-verified_output = sentinel.audit_response(user_input, ai_generated_text)
-print(verified_output)
 
 ---
 **Founder:** Daniel C. Schramm (Malt Studios)  
